@@ -1,34 +1,51 @@
 ### **Credit Card Fraud Detection**
 
-**Description:**
-This repository contains code for a credit card fraud detection project. The aim of this project is to develop a machine learning model that can accurately detect fraudulent transactions in credit card data.
+This repository contains code for a Credit Card Fraud Detection project, along with the dataset used for training the machine learning model. The project aims to identify fraudulent transactions in credit card data using machine learning algorithms.
 
-**Dataset:**
-The dataset used for this project is sourced from Kaggle and can be found [here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud). It consists of credit card transactions made by European cardholders in September 2013, containing a total of 284,807 transactions. The dataset is highly unbalanced, with only 492 (0.172%) of them being fraudulent. Each transaction contains 30 features, which are numerical anonymized features obtained through PCA transformation due to privacy concerns. Additionally, there is a 'Class' column indicating whether the transaction is fraudulent (1) or not (0).
+### **Dataset**
 
-**Contents:**
+The dataset used in this project is obtained from Kaggle and is provided by the Machine Learning Group at ULB (Université Libre de Bruxelles). The dataset contains transactions made by credit cards in September 2013 by European cardholders. It includes a total of 284,807 transactions, of which 492 are fraudulent. The dataset is highly imbalanced, with the positive class (fraudulent transactions) accounting for only 0.172% of all transactions.
 
-- **`credit_card_fraud_detection.ipynb`**: Jupyter Notebook containing the code for data preprocessing, exploratory data analysis (EDA), model building, and evaluation.
+You can access the dataset on Kaggle via the following link: [Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
+### **Project Overview**
+
+The project involves the following steps:
+
+1. **Exploratory Data Analysis (EDA):** Analyzing the dataset to understand its structure, check for missing values, examine the distribution of features, and visualize the distribution of the target variable (fraudulent vs. non-fraudulent transactions).
+2. **Model Building:** Constructing a machine learning model using the Random Forest Classifier algorithm to predict whether a transaction is fraudulent or not.
+3. **Model Evaluation:** Evaluating the performance of the model using metrics such as accuracy score and classification report.
+
+### **Files**
+
+- **`credit_card_fraud_detection.py`**: Python script containing the code for EDA, model building, and evaluation.
 - **`credit_card_dataset.csv`**: CSV file containing the credit card transaction data.
-- **`README.md`**: Readme file providing an overview of the project, dataset information, and instructions for usage.
 
-**Instructions:**
+### **Usage**
+
+To use the code in this repository:
 
 1. Clone the repository to your local machine.
-2. Download the **`credit_card_dataset.csv`** file from the Kaggle dataset link provided above and place it in the same directory as the Jupyter Notebook.
-3. Open and run the **`credit_card_fraud_detection.ipynb`** notebook in Jupyter Notebook or any compatible environment.
-4. Follow along with the notebook to understand the data preprocessing steps, exploratory data analysis, model building using Random Forest Classifier, and evaluation of the model's performance.
-5. Optionally, modify the code or experiment with different algorithms to further improve the fraud detection model.
+2. Download the **`credit_card_dataset.csv`** file from the provided Kaggle link and place it in the repository directory.
+3. Run the **`credit_card_fraud_detection.py`** script to execute the project code.
 
-**Dependencies:**
+### **Requirements**
 
-- Python 3.x
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
+The project code requires the following Python libraries:
 
-**Note:**
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
 
-- Ensure that the dataset file (**`credit_card_dataset.csv`**) is correctly placed in the same directory as the notebook for the code to execute without errors.
-- This project serves as a demonstration of credit card fraud detection using machine learning techniques and can be further extended or customized as per specific requirements.
+You can install these dependencies using pip:
+
+```
+Copy code
+pip install pandas matplotlib seaborn scikit-learn
+```
+
+### **Acknowledgments**
+
+- The dataset used in this project is sourced from Kaggle and provided by the Machine Learning Group at ULB (Université Libre de Bruxelles).
+- Special thanks to the contributors and maintainers of the dataset for making it publicly available for research purposes.
