@@ -45,7 +45,15 @@ Copy code
 pip install pandas matplotlib seaborn scikit-learn
 ```
 
+### **Contributors**
+
+- [Adarsh Nashine](https://www.linkedin.com/in/adarsh-nashine/)
+
 ### **Acknowledgments**
 
 - The dataset used in this project is sourced from Kaggle and provided by the Machine Learning Group at ULB (Université Libre de Bruxelles).
 - Special thanks to the contributors and maintainers of the dataset for making it publicly available for research purposes.
+
+### **License**
+
+This project is licensed under the MIT License. Feel free to use the code for educational and commercial purposes.
