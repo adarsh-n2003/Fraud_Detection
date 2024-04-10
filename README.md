@@ -1,10 +1,10 @@
-### **Credit Card Fraud Detection**
+### **Fraud Detection Project**
 
-This repository contains code for a Credit Card Fraud Detection project, along with the dataset used for training the machine learning model. The project aims to identify fraudulent transactions in credit card data using machine learning algorithms.
+This repository contains code for a fraud detection project aimed at identifying potentially fraudulent transactions in credit card data using machine learning algorithms.
 
 ### **Dataset**
 
-The dataset used in this project is obtained from Kaggle and is provided by the Machine Learning Group at ULB (Université Libre de Bruxelles). The dataset contains transactions made by credit cards in September 2013 by European cardholders. It includes a total of 284,807 transactions, of which 492 are fraudulent. The dataset is highly imbalanced, with the positive class (fraudulent transactions) accounting for only 0.172% of all transactions.
+The dataset used in this project is obtained from Kaggle and is provided by the Machine Learning Group at ULB (Université Libre de Bruxelles). It contains transactions made by credit cards in September 2013 by European cardholders. The dataset consists of 284,807 transactions, of which 492 are fraudulent. The dataset is highly imbalanced, with fraudulent transactions accounting for only 0.172% of all transactions.
 
 You can access the dataset on Kaggle via the following link: [Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
@@ -18,7 +18,7 @@ The project involves the following steps:
 
 ### **Files**
 
-- **`credit_card_fraud_detection.py`**: Python script containing the code for EDA, model building, and evaluation.
+- **`fraud_detection.py`**: Python script containing the code for EDA, model building, and evaluation.
 - **`credit_card_dataset.csv`**: CSV file containing the credit card transaction data.
 
 ### **Usage**
@@ -27,7 +27,7 @@ To use the code in this repository:
 
 1. Clone the repository to your local machine.
 2. Download the **`credit_card_dataset.csv`** file from the provided Kaggle link and place it in the repository directory.
-3. Run the **`credit_card_fraud_detection.py`** script to execute the project code.
+3. Run the **`fraud_detection.py`** script to execute the project code.
 
 ### **Requirements**
 
